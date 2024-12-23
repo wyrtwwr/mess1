@@ -1,0 +1,335 @@
+/* мобильная версия */
+@media (max-width: 767px)  {
+  body{
+    margin-left: -0.2vw;
+    width: 94%;
+  }
+  .girl1 {
+
+    z-index: 1;
+    width: 55vw;
+    top: 29vw;
+    left: 22vw;
+    position: absolute;
+    animation: girl 3s steps(1) infinite;
+  opacity: 1;
+  
+  
+  }
+  
+  
+  .girl2 {
+    opacity: 1;
+    animation: girl2 3s steps(1) infinite;
+    z-index: 2;
+    width: 55vw;
+    top: 29vw;
+    left:  22vw;
+    position: absolute;
+  }
+
+.message6 {
+  top: 16.683vw;
+  position: absolute;
+  left: 56vw;
+  width: 34.99vw;
+}
+.mess_block {
+  left: 62.5vw;
+  top: 22vw;
+  position: absolute;
+  animation: shake2 0.5s;
+  animation-iteration-count: infinite;
+}
+.mess1 {
+  width: 6vw;
+}
+
+
+.mess2 {
+  width: 6vw;
+}
+
+.mess3 {
+  width: 3.8vw;
+}
+
+.mess4 {
+  width: 3.8vw;
+}
+
+
+
+.message2 {
+  width: 25.43vw;
+  position: absolute;
+  top: 100.56vw;
+  left: 2.738vw;
+}
+.star_all  {
+  top: 105.56vw;
+}
+
+
+.message7 {
+  position: absolute;
+  left: 68.74vw;
+  top: 105.167vw;
+  width: 26.6142vw;
+}
+.message7_txt  {
+  position: relative;
+  top: 70vw;
+  left: -5vw;
+}
+
+
+.message8 {
+  width: 24vw;
+  left: 68.30vw;
+  top: 150.56vw;
+  position: absolute;
+}
+
+.game {
+  position: relative;
+  top: 76.5svw;
+  left: -4.5vw;
+}
+
+.message4 {
+  top: 130.624vw;
+  left: 1.7vw;
+  width: 30vw;
+  position: absolute;
+}
+
+.piano_mob {
+  position: relative;
+  top: 71vw;
+  left: 1vw;
+}
+.piano {
+  top: 63vw;
+  left: 3.5vw;
+  position: absolute;
+  width: 20vw;
+}
+.piano2 {
+  position: absolute;
+  top: 72vw;
+  left: 5vw;
+  width: 20vw;
+}
+.nota {
+  width: 1.2vw;
+  position: absolute;
+  margin-bottom: 10px;
+  opacity: 1;
+  animation-name: pulse3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.n1 {
+  top: 77vw;
+  left: 10vw;
+}
+.n2 {
+  top: 76vw;
+  left: 16.5vw;
+}
+.n4 {
+  top: 83vw;
+  left: 8.5vw;
+}
+.n5 {
+  top: 77.3vw;
+  left: 21vw;
+}
+
+.message5 {
+  width: 30vw;
+  position: absolute;
+  left: 3vw;
+  top: 165vw;
+}
+.nota_big {
+  top: 173.5vw;
+  left: 8vw;
+  width: 5.477308294209703vw;
+  position: absolute;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+.nota_big2 {
+  top: 170vw;
+  left: 23vw;
+}
+.nota_big3 {
+  top: 172vw;
+  left: 15vw;
+}
+.skate1 {
+  top: 120.1vw;
+  left: 0vw;
+  width: 31vw;
+}
+.skate_mob {
+  position: relative;
+  top: 95vw;
+  left: 1.1vw;
+  width: 29.40vw;
+}
+.koleso {
+  top: 138.1vw;
+  left: 9.8vw;
+  width: 2.5vw;
+}
+.koleso2 {
+  top: 132.1vw;
+  left: 21.5vw;
+  width: 2.5vw;
+}
+
+.velo {
+  width: 30vw;
+  left: 3vw;
+  position: absolute;
+  top: 242.6vw;
+}
+.koleso1_velo {
+  width: 10vw;
+  top: 257.5vw;
+  left: 4.9vw;
+}
+.koleso2_velo {
+  width: 10vw;
+  top: 253.5vw;
+  left:  21vw;
+}
+
+.message9  {
+  width: 32vw;
+  left: 62vw;
+  top: 208vw;
+}
+.stop_mot_anim {
+  left: 61vw;
+  top: 215vw;
+  width: 30vw;
+}
+.black_nota {
+  top: 155.7vw;
+    left: 4.8vw;
+    width: 4.1vw;
+}
+.FIO_block {
+  position: relative;
+  top: 55vw;
+  left: 15vw;
+  
+}
+
+.mobile {
+  width: 93vw;
+  display: block;
+  position: relative;
+  top: 272vw;
+  left: 2vw;
+}
+
+
+
+.ballboul {
+  z-index: 3;
+  position: absolute;
+  top: 150vw;
+  left: 10vw;
+  width: 10vw;
+  animation: ball_mob 2s alternate infinite;
+}
+.bouling_all1 {
+  background-size: 50vw;
+  top: 283vw;
+  left: 40vw;
+  width: 55vw;
+}
+
+.oblako_footer {
+
+  position: absolute;
+  top: 331vw;
+  width: 92vw;
+ 
+} 
+
+
+.j1 {
+  width: 6.5vw;
+}
+.j2 {
+  width: 14vw;
+  margin-left: 1vw;
+}
+.j3 {
+  width: 9vw;
+  margin-left: 2.5vw;
+}
+.j4 {
+  width: 20vw;
+  margin-left: 2vw;
+}
+.j5 {
+width: 12vw;
+position: relative;
+top: 0.2vw;
+margin-left: 13vw;
+}
+
+.txt_footer {
+  position: absolute;
+  top: 333.7vw;
+  left: 3.5vw;
+ 
+}
+
+.board {
+  width: 20vw;
+  top: 213vw;
+  left: 4vw;
+}
+
+.skate1 {
+  width: 29vw;
+  position: absolute;
+  left: 0.6vw;
+  top: 205vw;
+}
+
+.koleso {
+  position:absolute;
+  top: 222.5vw;
+  left: 9vw;
+  width:2.9vw;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+.koleso2 {
+  position:absolute;
+  top: 218vw;
+  left: 19.8vw;
+  width:2.8vw;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+.sky {
+  width: 1vw;
+  height: 1vw;
+  position: absolute;
+  top: 342vw;
+}
+}

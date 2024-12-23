@@ -1,0 +1,363 @@
+
+@keyframes spin5 { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }  
+    30% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes pulse3 {
+  50% {
+    opacity: 0;
+  }
+  }
+  @keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+  }
+  @keyframes girl {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }  
+    30% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes girl2 {
+    0% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }  
+    30% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes shake2 {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  @keyframes pulse3 {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }  
+    30% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes pulse5 {
+    0% {
+      opacity: 0;
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% {
+      opacity: 0;
+      transform: translate(-1px, 2px) rotate(-1deg); 
+    }
+    60% { opacity: 1;transform: translate(-3px, 1px) rotate(0deg); }
+  70% {opacity: 1; transform: translate(3px, 1px) rotate(-1deg); }
+  80% { opacity: 1;transform: translate(-1px, -1px) rotate(1deg); }
+  90% {opacity: 1; transform: translate(1px, 2px) rotate(0deg); }
+    100% {
+      opacity: 1;
+      transform: translate(1px, -2px) rotate(-1deg); 
+    }
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  @keyframes shake2 {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  @keyframes spin_ball { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+  }
+  @keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-2px) }
+    35% { transform: translateY(-2px) rotate(1.5deg) }
+    55% { transform: translateY(-2px) rotate(-1.5deg) }
+    65% { transform: translateY(-2px) rotate(1.5deg) }
+    75% { transform: translateY(-2px) rotate(-1.5deg) }
+    100% { transform: translateY(0) rotate(0) }
+  }
+  @keyframes jump-shakin3 {
+  0% {
+  
+  }
+    100% { transform: translateY(0 )rotate(0);
+      transform:rotate(-20deg); }
+  }
+  
+  @keyframes man {
+    0% {
+      background-image: url(../image/man_animation/man1.png);
+      
+    }
+    10% {
+      background-image: url(../image/man_animation/man2.png);
+      
+    }
+    20% {
+      background-image: url(../image/man_animation/man3.png);
+      
+    }
+    30% {
+      background-image: url(../image/man_animation/man4.png);
+      
+      }
+    40% {
+        background-image: url(../image/man_animation/man1.png);
+        
+      }
+    50% {
+        background-image: url(../image/man_animation/man2.png);
+        
+      }
+      60% {
+        background-image: url(../image/man_animation/man3.png);
+        
+      }
+      70% {
+        background-image: url(../image/man_animation/man4.png);
+        
+        }
+        80% {
+          background-image: url(../image/man_animation/man1.png);
+          
+        }
+        90% {
+          background-image: url(../image/man_animation/man2.png);
+          
+        }
+        100% {
+          background-image: url(../image/man_animation/man3.png);
+          
+        }
+  
+  }
+  @keyframes change{
+  0% {
+    background-image: url(../image/keg_all1.png);
+  }
+  
+  20% {
+    background-image: url(../image/keg_all2.png);
+  }
+  
+  40% {
+    background-image: url(../image/keg_all1.png);
+  }
+  
+  60% {
+    background-image: url(../image/keg_all2.png);
+  }
+  
+  80% {
+    background-image: url(../image/keg_all1.png);
+  }
+  
+  100% {
+    background-image: url(../image/keg_all2.png);
+  }
+  }
+  @keyframes ball {
+    0% {
+      top: 156vw;
+      left: 13vw;
+    }
+    
+  
+  
+  
+  
+    100% {
+      top: 186vw;
+      left: 59vw;
+    }
+  }
+    @keyframes buk{
+      0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+
+
+    @keyframes  ball_mob {
+      0% {
+        top: 290vw;
+        left: 13vw;
+      }
+    
+      100% {
+        top: 290vw;
+        left: 56vw;
+      }
+    }
+
+    @keyframes skateanim{
+      0% {
+        left: 0vw;
+        top: 1vw;
+      }
+      100% {
+        left: -2vw;
+        top: 2vw;
+      }
+      }

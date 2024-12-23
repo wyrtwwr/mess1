@@ -1,0 +1,794 @@
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "OpenSans-Regular";
+    background-color: rgba(232, 211, 184, 1);
+    overflow-x: hidden;
+    width: 100%;
+    height: min-content;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+  }
+
+
+.message {
+  left: 3.912vw;
+  top: 1vw;
+  width:  89.67vw;
+  position: absolute;
+}
+
+
+
+
+.message1 {
+  width: 10vw;
+}
+
+.message1_txt {
+  width: 0vw;
+  position: absolute;
+  margin-bottom: 10px;
+  opacity: 1;
+  animation-name: pulse;
+  animation-duration: 3.2s;
+  transition-timing-function: steps(1);
+  animation-iteration-count: infinite;
+  
+
+}
+.alph {
+
+  display: flex;
+}
+
+
+.message1_txt:nth-child(1) {animation-delay: 1s; }
+.message1_txt:nth-child(2) {animation-delay: 1.5s; }
+.message1_txt:nth-child(3) {animation-delay: 2s; }
+
+.star_all {
+  position: absolute;
+  top: 39vw;
+  left: 6.5vw;
+  width: 16vw;
+  -webkit-animation:spin5 5s linear infinite;
+  -moz-animation:spin5 5s linear infinite;
+  animation:spin5 5s linear infinite;
+}
+
+
+.org_mess1 {
+  position: absolute;
+  width: 70vw;
+  left: 15vw;
+  top: 3vw;
+}
+
+.t1 {
+  width: 40vw;
+  top:  3.676vw;
+  left:17.5vw;
+  position: absolute;
+}
+.t2 {
+  width: 9vw;
+  left: 64.9vw;
+  top: 3.90vw;
+  position: absolute;
+}
+.t3 {
+  position: absolute;
+  top: 9.4vw;
+  left: 36.88vw;
+  width: 28vw;
+}
+.t4 {
+  position: absolute;
+  top: 9.4vw;
+  left: 40.88vw;
+  width: 4vw;
+}
+.t5 {
+  position: absolute;
+  top: 9.4vw;
+  left: 44.88vw;
+  width: 2.6vw;
+}
+.t6 {
+  position: absolute;
+  top: 9.4vw;
+  left: 47.88vw;
+  width: 3vw;
+}
+.t7 {
+  position: absolute;
+  top: 9.4vw;
+  left: 50.88vw;
+  width: 3.4vw;
+}
+.t8 {
+  position: absolute;
+  top: 9.4vw;
+  left: 55.8vw;
+  width: 5vw;
+}
+
+.message2 {
+width: 25.43vw;
+  position: absolute;
+  top: 33.568vw;
+  left: 2.7386vw;
+}
+
+
+.star_bl {
+
+
+ margin-left: 3vw;
+ margin-top:9vw ;
+    position: absolute;
+    margin-bottom: 10px;
+    opacity: 1;
+    animation-name: pulse2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  
+
+.star1 {
+  width: 2.5vw;
+  position: absolute;
+  left: 17vw;
+  top: 33vw;
+}
+.star2 { width: 3vw;
+  position: absolute;
+  left: 11vw;
+  top: 30vw;
+}
+.star3 { width: 3.2vw;
+  position: absolute;
+  left: 4.7vw;
+  top: 31vw;
+}
+.star4 { width: 2.8vw;
+  position: absolute;
+  left: 4.7vw;
+  top: 36.6vw;
+}
+.star5 { width: 2.5vw;
+  position: absolute;
+  left: 8vw;
+  top: 40.6vw;
+}
+.star6 { width: 3.2vw;
+  position: absolute;
+  left: 13vw;
+  top: 38.6vw;
+}
+
+
+
+
+
+
+.message4 {
+  top:  59.624vw;
+  left: 1.7vw;
+  width: 35.52vw;
+  position: absolute;
+}
+
+.piano {
+  top: 62vw;
+  left: 4.5vw;
+  position: absolute;
+  width: 24.960vw;
+}
+.piano2 {
+  position: absolute;
+  top: 75vw;
+  left: 5vw;
+  width: 24vw;
+}
+
+
+.nota {
+
+
+ width: 1.9vw;
+  position: absolute;
+  margin-bottom: 10px;
+  opacity: 1;
+  animation-name: pulse3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.nota:nth-child(1) {animation-delay: 0.5s; }
+.nota:nth-child(2) {animation-delay: 1s; }
+.nota:nth-child(3) {animation-delay: 1.5s; }
+.nota:nth-child(4) {animation-delay: 2s; }
+
+
+
+
+
+.n1 {
+  top: 90vw;
+  left: 10vw;
+}
+
+.n2 {
+  top: 79.5vw;
+  left: 12vw;
+}
+.n3 {
+  display: none;
+  top: 80vw;
+  left: 24vw;
+}
+.n4 {
+  top: 80.5vw;
+  left: 27vw;
+}
+.n5 {
+  top: 82.5vw;
+  left: 19vw;
+}
+.n {
+  top: 74vw;
+  left: 21vw;
+  width:3.6863vw;
+  position: absolute;
+}
+
+
+
+
+.nota_big {
+  top: 111vw;
+  left: 10vw;
+  width: 5.477vw ;
+  position: absolute;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+.nota_big2 {
+  top: 105vw;
+  left: 26vw;
+  width: 4.147vw ;
+  position: absolute;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+.nota_big3 {
+  top: 108vw;
+  left: 17vw;
+  width: 7.147vw ;
+  position: absolute;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+}
+
+.black_nota {
+  width: 4.5863vw;
+  top:  90.12vw;
+  left:4.525vw;
+  position: absolute;
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+
+.message5 {
+  width: 32vw;
+  position: absolute;
+  left: 5vw;
+  top: 100.70vw;
+}
+
+.skate1 {
+position:absolute;
+  top: 121.51vw;
+  left: 2.190vw;
+  width:  37.40vw;
+}
+
+.koleso {
+  position:absolute;
+  top: 143.1vw;
+  left: 13.5vw;
+  width:3.2vw;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+.koleso2 {
+  position:absolute;
+  top: 137.2vw;
+  left: 27.2vw;
+  width:3.2vw;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+
+.velo {
+  width: 42vw;
+  left: 1.5vw;
+  position: absolute;
+  top: 176.604vw;
+}
+
+.koleso1_velo {
+  width:15vw;
+  top: 197.5vw;
+  left: 4.5vw;
+  position: absolute;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+.koleso2_velo {
+  width:14.5vw;
+  top: 190.5vw;
+  left: 26.5vw;
+  position: absolute;
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+
+.girl1 {
+
+  z-index: 1;
+  width: 45vw;
+  top: 18vw;
+  left: 32vw;
+  position: absolute;
+  animation: girl 3s steps(1) infinite;
+opacity: 1;
+
+
+}
+
+
+.girl2 {
+  opacity: 1;
+  animation: girl2 3s steps(1) infinite;
+  z-index: 2;
+  width: 45vw;
+  top: 18vw;
+  left: 32vw;
+  position: absolute;
+}
+
+.message6 {
+  top: 16.68vw;
+  position: absolute;
+  left: 72.0vw;
+  width: 25.99vw;
+}
+
+.mess {
+  width: 16vw;
+  left: 77.5vw;
+  top: 21vw;
+  position: absolute;
+  animation: shake2 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.message7{
+  position: absolute;
+  left: 75.74vw;
+  top:  36.167vw;
+width:  21.6142vw;
+
+}
+
+
+
+
+.message7_txt{
+  animation-name: pulse3;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+
+.mes1 {
+  width: 9.1vw;
+  top: 45.417vw;
+  left: 82.55vw;
+  position: absolute;
+}
+.mes2 {
+  width: 14vw;
+  top: 49.4178vw;
+  left: 79.95vw;
+  position: absolute;
+}
+.mes3 {
+  width: 10.1vw;
+  top: 58.41784vw;
+  left: 79.550vw;
+  position: absolute;
+}
+.mes4 {
+  width: 8vw;
+  top: 61.4178vw;
+  left: 87.55vw;
+  position: absolute;
+}
+.mes5 {
+  width: 3.1vw;
+  top: 54.4178vw;
+  left: 90.85vw;
+  position: absolute;
+}
+.message7_txt:nth-child(1) {animation-delay: 1s; }
+.message7_txt:nth-child(2) {animation-delay: 1.5s; }
+.message7_txt:nth-child(3) {animation-delay: 2s; }
+.message7_txt:nth-child(4) {animation-delay: 2.5s; }
+.message7_txt:nth-child(5) {animation-delay: 3s; }
+.message7_txt:nth-child(6) {animation-delay: 3.5s; }
+.message7_txt:nth-child(7) {animation-delay: 4s; }
+.message7:nth-child(8) {animation-delay: 4.5s; }
+
+
+
+.mess_anim {
+  animation-name: pulse5;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  
+}
+.mess_anim:nth-child(1) {animation-delay: 0.5s; }
+.mess_anim:nth-child(2) {animation-delay: 1s; }
+.mess_anim:nth-child(3) {animation-delay: 1.5s; }
+.mess_anim:nth-child(4) {animation-delay: 2s; }
+
+
+.mess1{
+  width: 4.5vw;
+}
+.mess2{
+  width: 4.5vw;
+}
+.mess3{
+  width: 2.7vw;
+}
+.mess4{
+  width: 2.7vw;
+}
+.mess_block  {
+left: 77vw;
+top: 20.5vw;
+  position: absolute;
+  animation: shake2 0.5s;
+  animation-iteration-count: infinite;
+}
+
+
+.message8 {
+  width: 24vw;
+  left: 72.30vw;
+  top: 72.56vw;
+  position: absolute;
+}
+
+.ball {
+  position: absolute;
+  width:  10.552vw;
+  left: 82.51vw;
+  top: 76.87vw;
+  -webkit-animation:spin_ball 5s linear infinite;
+  -moz-animation:spin_ball 5s linear infinite;
+  animation:spin_ball 5s linear infinite;
+}
+
+.toy1 {
+  position: absolute;
+  width:   5.712vw;
+  left: 76.51vw;
+  top: 87.87vw;
+  animation: jump-shaking 0.83s infinite;
+}
+
+.toy2 {
+  position: absolute;
+  width: 9vw;
+  left: 82.8vw;
+  top: 91.87vw;
+  animation: jump-shakin2 9s infinite;
+}
+.toy4 {
+  position: absolute;
+  width:  11.5vw;
+  left: 76.8vw;
+  top: 102.87vw;
+  animation: jump-shakin3 1s infinite;
+  animation-direction: alternate;
+}
+
+
+.toy5 {
+  position: absolute;
+  width:  5.5vw;
+  left: 76.8vw;
+  top: 108.87vw;
+  animation: spin_ball 3s infinite;
+  animation-direction: alternate;
+}
+
+.stop_mot_anim {
+  position: absolute;
+  left: 65vw;
+  top: 125vw;
+  width: 30vw;
+  height: 50vw;
+  background-image: url(../image/man_animation/man4.png);
+  background-size: 30vw;
+  animation: man  4s steps(1) infinite;
+  background-repeat: no-repeat;
+}
+
+    
+
+.message9 {
+  width: 32vw;
+  left: 66vw;
+  top: 120vw;
+  position: absolute;
+}
+
+
+.k1 {
+  width: 4.69vw;
+  top:  192.4vw;
+left: 66.7vw;
+}
+.k2 {
+  top:  192.4vw;
+  width: 4.69vw;
+
+  left: 71.7vw;
+}
+.k3 {
+  top:  192.41vw;
+  width: 4.694vw;
+
+  left: 76.74vw;
+}
+.k4 {
+  top:  192.41vw;
+  width: 4.694vw;
+
+  left: 81.74vw;
+}
+
+.kegla {
+  position: absolute;
+}
+
+
+
+.bouling_all1 {
+  top: 185vw;
+  left: 60vw;
+  width: 38vw;
+  height: 50vw;
+  position: absolute;
+  background-size: 38vw;
+  background-repeat:no-repeat ;
+  background-image: url(../image/keg_all1.png);
+  animation: change 8.5s steps(1) infinite;
+}
+
+
+.ballboul {
+z-index: 3;
+  position: absolute;
+  top: 160vw;
+  left: 10vw;
+  width: 10vw;
+
+  animation: ball 2s alternate infinite;
+}
+
+
+.footertxt {
+  width: 50vw;
+  left: 3.2vw;
+  position: absolute;
+  top: 228vw;
+
+}
+
+.bukva {
+  position: relative;
+  top: 228vw;
+  left: 3.2vw;
+    animation-name: buk;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+   
+    
+  }
+
+  .bukva:nth-child(1) {animation-delay: 0.5s; }
+  .bukva:nth-child(2) {animation-delay: 1s; }
+  .bukva:nth-child(3) {animation-delay: 1.5s; }
+  .bukva:nth-child(4) {animation-delay: 2s; }
+  .bukva:nth-child(5) {animation-delay: 2.5s; }
+  .bukva:nth-child(6) {animation-delay: 3s; }
+  .bukva:nth-child(7) {animation-delay: 3.5s; }
+  .bukva:nth-child(8) {animation-delay: 4s; }
+  .bukva:nth-child(9) {animation-delay: 4.5s; }
+  .bukva:nth-child(10) {animation-delay: 5s; }
+  .bukva:nth-child(11) {animation-delay: 5.5s; }
+  .bukva:nth-child(12) {animation-delay: 6s; }
+  .bukva:nth-child(13) {animation-delay: 6.5s; }
+  .bukva:nth-child(14) {animation-delay: 7s; }
+  .bukva:nth-child(15) {animation-delay: 7.5s; }
+  .bukva:nth-child(16) {animation-delay: 8s; }
+  .bukva:nth-child(17) {animation-delay: 8.5s; }
+  .bukva:nth-child(18) {animation-delay: 9s; }
+  .bukva:nth-child(19) {animation-delay: 9.5s; }
+  .bukva:nth-child(20) {animation-delay: 10s; }
+  .bukva:nth-child(21) {animation-delay: 10.5s; }
+
+
+
+.b1 {
+width: 2.1vw;
+}
+.b2 {
+  width: 2.2vw;
+}
+.b3 {
+  width: 2.1vw;
+}
+
+  .b4 {
+    width: 2.5vw;
+    margin-left: 2vw;
+  }
+  .b5 {
+    width: 2.1vw;
+  }
+  .b6 {
+    width: 2.1vw;
+  }
+  .b7 {
+    width: 0.7vw;
+  }
+  .b8 {
+    width: 2.4vw;
+  }
+  .b9 {
+    width: 2.05vw;
+  }
+  
+  .b10 {
+    width: 2.1vw;
+    margin-left: 2vw;
+  }
+  .b11 {
+    width: 0.7vw;
+  }
+  .b12 {
+    width: 2.1vw;
+  }
+  .b13{
+    width: 2.1vw;
+  }
+  .b14 {
+    margin-left: 2vw;
+  }
+  .b14 {
+    width: 2.1vw;
+  }
+  .b15 {
+    width: 1.6vw;
+  }
+  .b16 {
+    width: 2.1vw;
+  }
+  .b17 {
+    width: 2.1vw;
+  }
+  .b18 {
+    width: 2vw;
+  }
+  .b19 {
+    width: 2.1vw;
+  }
+  .b20 {
+    width: 1.95vw;
+  }
+  .b21 {
+    width: 1.8vw;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+
+  .oblako_footer {
+    position: absolute;
+    top: 223vw;
+    width: 97vw;
+    left: 0.8vw;
+  }
+
+  .txt_footer {
+    position: absolute;
+    top: 226.7vw;
+    left: 3.5vw;
+  }
+  .j1 {
+    width: 7.5vw;
+  }
+  .j2 {
+    width: 16vw;
+    margin-left: 3vw;
+  }
+  .j3 {
+    width: 10vw;
+    margin-left: 2.5vw;
+  }
+  .j4 {
+    width: 21vw;
+    margin-left: 2vw;
+  }
+.j5 {
+  width: 14vw;
+  position: relative;
+ top: -1vw;
+  margin-left: 10vw;
+}
+  
+
+.ftxtanim {
+  animation-name: pulse;
+  animation-duration: 3.2s;
+  transition-timing-function: steps(1);
+  animation-iteration-count: infinite;
+}
+.ftxtanim:nth-child(1) {animation-delay: 0.5s; }
+.ftxtanim:nth-child(2) {animation-delay: 1s; }
+.ftxtanim:nth-child(3) {animation-delay: 1.5s; }
+.ftxtanim:nth-child(4) {animation-delay: 2s; }
+.ftxtanim:nth-child(5) {animation-delay: 2.5s; }
+
+
+.board {
+  position: absolute;
+  top: 131vw;
+  width: 26vw;
+  left: 6.5vw;
+}
+
+.skate_mob{
+  position: absolute;
+  animation: skateanim 2s alternate infinite;
+
+}
+
